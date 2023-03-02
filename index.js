@@ -33,14 +33,15 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        message: 'What license would you like to use?',
+        message: 'What license (if any) would you like to use?',
         choices: [
-            { value: 'Apache' },   
-            { value: 'BSD3' },  
-            { value: 'LGPL' },  
-            { value: 'MIT' },  
-            { value: 'MPL' }, 
-            { value: 'None' }, 
+            'Apache',
+            'BSD3',
+            'GPLv2', 
+            'LGPL',  
+            'MIT',  
+            'MPL', 
+            'None', 
         ]
     },
     // How to Contribute
