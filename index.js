@@ -56,7 +56,7 @@ const questions = [
         name: 'test',
         message: 'How can this application be tested?',
     },
-    // Questions (user GitHub username and email here)
+    // Questions (GitHub username and email here)
     {
         type: 'input',
         name: 'github',
