@@ -9,13 +9,13 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of the project?',
+        message: 'What is the title of your project?',
     },
     // Description
     {
         type: 'input',
         name: 'description',
-        message: 'Provide a short description explaining what, why, and how of your project.',
+        message: 'Provide a short description explaining the what, why, and how of your project.',
     },
     // Installation
     {
@@ -56,7 +56,7 @@ const questions = [
         name: 'test',
         message: 'How can this application be tested?',
     },
-    // Questions (user GitHub username and email here)
+    // Questions (GitHub username and email here)
     {
         type: 'input',
         name: 'github',
@@ -74,7 +74,7 @@ function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err)
             throw err;
-            console.log('README has been generated!')
+            console.log('Success! Your README has been generated!')
     });
 }
 

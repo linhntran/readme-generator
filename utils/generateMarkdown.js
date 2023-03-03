@@ -48,7 +48,7 @@ function renderLicenseSection(license) {
   let section = ``
   if (license !== `None`) {
     section = `## License
-  This project is licensed under ${license}. Click this [link]${renderLicenseLink(license)} for more details.`
+  This project is covered under the ${license} license. Visit this [link]${renderLicenseLink(license)} for more details.`
   } else {
     return section
   }
@@ -98,7 +98,7 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
-  Have questions? Feel free to reach me via GitHub or Email.
+  Have questions? Feel free to visit my GitHub page or send me an email.
 
   GitHub: [${data.github}](https://github.com/${data.github})
   
