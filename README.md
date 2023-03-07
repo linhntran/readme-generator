@@ -8,18 +8,6 @@ The following walkthrough video demonstrates the functionality of the README gen
 
 [Link to Video Walkthrough](https://drive.google.com/file/d/1Js2yO4WfNZ61WglaFunsoG082SO7as3j/view)
 
-## Table of Contents
-[Installation](#installation)
-
-
-[Usage](#usage)
-
-
-[License](#license)
-
-
-[Questions](#questions)
-
 ## Installation
 
 The user will need to have Node.js installed. Follow the instructions outlined in the [Node Installation Guide](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs).
@@ -29,7 +17,3 @@ To install inquier, please use `npm i inquirer@8.2.4` in the command line. The a
 ## Usage
 
 A README file is a key component of a developer's profile containing essential information about the repository's project. Once all technologies listed in the Installation section above have been installed, simply invoke the application by using the `node index.js` command. 
-
-## License
-
-## Questions
