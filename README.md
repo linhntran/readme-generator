@@ -8,11 +8,20 @@ The following walkthrough video demonstrates the functionality of the README gen
 
 [Link to Video Walkthrough](https://drive.google.com/file/d/1Js2yO4WfNZ61WglaFunsoG082SO7as3j/view)
 
+## Table of Contents
+[Installation](#installation)
+
+
+[Usage](#usage)
+
+
 ## Installation
+
+Clone the repository to your local environment and open in any source code editor (VS Code for example). 
 
 The user will need to have Node.js installed. Follow the instructions outlined in the [Node Installation Guide](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs).
 
-To install inquier, please use `npm i inquirer@8.2.4` in the command line. The application can then be invoked using the `node index.js` command. 
+To install inquier, please use `npm i inquirer@8.2.4` in the command line. The application can then be initialized using the `node index.js` command. 
 
 ## Usage
 
